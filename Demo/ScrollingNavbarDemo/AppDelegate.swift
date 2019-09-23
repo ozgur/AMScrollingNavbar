@@ -15,9 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func applicationDidFinishLaunching(_ application: UIApplication) {
     UINavigationBar.appearance().tintColor = .white
-    UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
-    UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
-//    UINavigationBar.appearance().isTranslucent = false
+    UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+    UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
   }
-
 }
