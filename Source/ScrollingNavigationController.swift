@@ -663,7 +663,6 @@ open class ScrollingNavigationController: UINavigationController, UIGestureRecog
       }
     }
     navigationItem.titleView?.alpha = alpha
-    navigationBar.tintColor = savedNavBarTintColor?.withAlphaComponent(alpha)
     navigationItem.leftBarButtonItem?.tintColor = navigationItem.leftBarButtonItem?.tintColor?.withAlphaComponent(alpha)
     navigationItem.rightBarButtonItem?.tintColor = navigationItem.rightBarButtonItem?.tintColor?.withAlphaComponent(alpha)
     navigationItem.leftBarButtonItems?.forEach { $0.tintColor = $0.tintColor?.withAlphaComponent(alpha) }
